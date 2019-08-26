@@ -1,0 +1,6 @@
+<strings>
+    <string id="AppName">Bergsteigen Datenfeld 1</string>
+    <string id="labelHeartRate">HF</string>
+    <string id="labelAltitude">Höhe</string>
+    <string id="labelElapsedTime">Dauer</string>
+</strings>

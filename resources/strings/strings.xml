@@ -1,0 +1,6 @@
+<strings>
+    <string id="AppName">Mountaineering Data Field 1</string>
+    <string id="labelHeartRate">HR</string>
+    <string id="labelAltitude">Alt</string>
+    <string id="labelElapsedTime">Duration</string>
+</strings>
