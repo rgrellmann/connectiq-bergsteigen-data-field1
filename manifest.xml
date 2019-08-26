@@ -2,6 +2,9 @@
     <iq:application entry="BergsteigenDataField1App" id="7513b4b318a649c09573a5539454f900" launcherIcon="@Drawables.LauncherIcon" minSdkVersion="3.0.0" name="@Strings.AppName" type="datafield" version="0.0.0">
         <iq:products>
             <iq:product id="vivoactive3"/>
+            <iq:product id="vivoactive3d"/>
+            <iq:product id="vivoactive3m"/>
+            <iq:product id="vivoactive3mlte"/>
         </iq:products>
         <iq:permissions>
             <iq:uses-permission id="Positioning"/>
