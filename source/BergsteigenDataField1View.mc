@@ -103,7 +103,7 @@ class BergsteigenDataField1View extends WatchUi.DataField {
         value = View.findDrawableById("elapsedTime");
         var elapsedSeconds = elapsedTime / 1000;
         var hours = elapsedSeconds / 3600;
-        var minutes = (elapsedSeconds + 1600) / 60 % 60;
+        var minutes = (elapsedSeconds) / 60 % 60;
         var seconds = elapsedSeconds % 60;
         if (hours > 0) {
             value.setText(Lang.format("$1$:$2$", [hours, minutes.format("%02d")]));
@@ -122,9 +122,9 @@ class BergsteigenDataField1View extends WatchUi.DataField {
         value.setText(currentHeartRate.format("%d"));
 
         value = View.findDrawableById("totalAscent");
-        value.setText((totalAscent + 1234).format("%d") + 'm');
+        value.setText((totalAscent).format("%d") + 'm');
         value = View.findDrawableById("totalDescent");
-        value.setText((totalDescent + 1234).format("%d") + 'm');
+        value.setText((totalDescent).format("%d") + 'm');
 
         // Call parent's onUpdate(dc) to redraw the layout
         View.onUpdate(dc);
